@@ -232,9 +232,7 @@ Questions
   margin-bottom: 0;
 }
 /* hide text */
-.question-text {
-  display: none;
-}
+
 .show-text .question-text {
   display: block;
 }
@@ -245,5 +243,10 @@ Questions
   display: inline;
 }
 .show-text .plus-icon {
+  display: none;
+}
+
+
+.hidden {
   display: none;
 }
